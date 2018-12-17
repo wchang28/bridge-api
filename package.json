@@ -1,0 +1,24 @@
+{
+  "name": "bridge-api",
+  "version": "1.0.0",
+  "description": "Bridge Interactive REST API",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "transpile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wchang28/bridge-api.git"
+  },
+  "author": "Wen Chang",
+  "license": "MIT",
+  "dependencies": {
+    "@types/superagent": "^3.8.5",
+    "bridge-api-types": "git+https://github.com/wchang28/bridge-api-types.git",
+    "superagent": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.1"
+  }
+}
